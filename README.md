@@ -1,16 +1,27 @@
-# task_manager_app
+# Flutter Application
 
-A new Flutter project.
+This is a simple Flutter application. Follow the instructions below to run the app on your local machine.
+
+## Prerequisites
+
+Before you begin, ensure you have met the following requirements:
+
+- [Flutter SDK](https://docs.flutter.dev/get-started/install) installed
+- [Dart](https://dart.dev/get-dart) installed (comes with Flutter)
+- A code editor like [Visual Studio Code](https://code.visualstudio.com/) or [Android Studio](https://developer.android.com/studio)
+- A device (physical or emulator) set up for running the application
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+1. Clone the repository:
+   ```bash
+   git clone <repository-url>
+   cd <repository-name>
 
-A few resources to get you started if this is your first Flutter project:
+## Installing Dependencies
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+flutter pub get
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Run the application
+
+flutter run -d chrome
